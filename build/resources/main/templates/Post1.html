@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${post.title}">Post Title</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+<header id="header">
+    <div id="header_logo">
+        <a><img src="/img/leaf.png"><span>Resurgence</span></a>
+    </div>
+    <div id="header_menu">
+        <a href = "/resurgence/About">About</a>
+        <a href = "/resurgence/Blog">Blog</a>
+    </div>
+</header>
+
+<div id="home_image">
+    <div id="home_contents">
+        <h1>Resurgence</h1>
+        <h3>Nature's Return</h3>
+
+    </div>
+</div>
+
+<div class="container d-flex flex-column align-items-center text-center my-5">
+    <h1>Post Title</h1>
+    <p>10/29/2024</p>
+    <p>Post Content</p>
+    <img src="/img/Post1.jpg"  alt="Media" class="img-fluid">
+</div>
+</body>
+</html>

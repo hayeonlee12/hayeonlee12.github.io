@@ -1,0 +1,416 @@
+html {  font-family: 'Noto Sans KR', sans-serif;    }
+body {  margin:0; }
+main { width:80%; margin: 0 auto; }
+
+header{
+    height:80px;
+}
+a:hover{
+    cursor: pointer;
+}
+footer{
+
+}
+
+#header_logo{
+    display: inline;
+}
+#header_logo a{
+    display: inline-block;
+    line-height:80px;
+    margin-left:10%;
+}
+#header_logo a:hover{
+    cursor:pointer;
+}
+#header_logo img{
+    width:40px;
+    vertical-align:middle;
+    transform: translate(0%,-15%);
+}
+#header_logo span{
+    font-size: 35px;
+    margin-left:10px;
+    font-weight: 900;
+    color: #00BEA7;
+}
+#header_menu{
+    float: right;
+    line-height:80px;
+    margin-right:10%;
+}
+#header_menu a{
+    font-weight: bold;
+    font-size:18px;
+    margin:0px 20px;
+}
+#header_menu a:hover{
+    color:#00BEA7;
+    cursor:pointer;
+    font-weight: 700;
+}
+#header_login {
+    color:white;
+    background-color: black;
+    border-radius: 15px;
+    padding: 1px 30px;
+}
+#header_login:hover{
+    color:#00BEA7;
+    background-color: white;
+    box-shadow: 0 0 0 2px #00BEA7 inset;
+}
+#header_mypage{
+    margin-left:-5px !important;
+    position:relative;
+}
+#header_mypage i{
+    font-size: 28px;
+    position:absolute;
+    top: -110%;
+}
+#home_main{
+    width:100% !important;
+}
+#home_image {
+    background-image: url('/img/home.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size : cover;
+    margin : 0;
+    width:100% !important;
+    height: 300px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes the container full height of the viewport */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensures the image doesn't exceed container width */
+    height: auto;    /* Maintains aspect ratio */
+}
+#home_contents{
+    width:90%;
+    margin: 0 auto;
+    padding:100px 0px 0px 50px;
+    color:white;
+}
+#home_contents h1{
+    margin-left:10%;
+    font-size:80px;
+    text-shadow: 3px 2px 3px grey;
+    line-height: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 6px;
+    margin: 10px 10%;
+}
+#home_contents h3{
+    margin-left:10%;
+    font-size:20px;
+    line-height: 80px;
+    letter-spacing: 6px;
+    margin-top:0;
+}
+
+#home_plane{
+    width:80%;
+    margin: 150px 10% 0px 10% ;
+    display: inline-flex;
+}
+
+#home_plane_input{
+    display: inline-block;
+    background-color: white;
+    width:80%;
+    height: 100px;
+    opacity: 80%;
+    border-radius:50px;
+    padding : 0 30px;
+    box-sizing: border-box;
+}
+#home_plane_input label{
+    color:black;
+    display: inline-block;
+    width:14%;
+    font-weight: bold;
+    margin :25px 8px;
+}
+
+#home_plane_input select{
+    display: inline-block;
+    background-color: white;
+    width:90%;
+    border:none;
+}
+#home_plane_button{
+    display: inline-block;
+    width:15%;
+    height: 80px;
+    border-radius:40px;
+    margin:10px 20px;
+    font-size: 20px;
+    line-height: 80px;
+}
+#home_list_title{
+    line-height: 50px;
+    margin: 130px auto 20px auto;
+    background-color: #74F3D5;
+    width:200px;
+    height: 50px;
+    font-size:20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#home_list_label{
+    margin: 0 auto;
+    width:150px;
+    text-align: center;
+}
+#home_list_label span:hover{
+    font-weight: bold;
+}
+#home_list{
+    width:90%;
+    margin: 0 auto;
+}
+#home_list_container{
+    box-sizing: border-box;
+    width:100%;
+    display:inline-flex;
+    justify-content: space-between;
+    padding:30px 10rem;
+    margin: 30px auto;
+}
+/*.home_list_card{*/
+/*    width:16rem;*/
+/*    height:160px;*/
+/*    background-image: url(./img/example.jpg);*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    background-size : cover;*/
+/*    position:relative;*/
+/*}*/
+.home_list_card h2{
+    color:white;
+    position:absolute;
+    bottom:0px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#home_list_container i{
+    line-height:150px;
+    font-size:25px;
+}
+#login_container{
+    display: flex;
+    width: 60%;
+    margin:120px auto;
+    text-align: center;
+    float:left;
+    transform: translate(50%);
+}
+#signup_container{
+    display: flex;
+    width: 60%;
+    margin:120px auto;
+    float:left;
+    transform: translate(45%);
+}
+
+#login_logo, #signup_logo{
+    text-align: center;
+}
+#login_logo img{
+    width:150px;
+}
+
+#login_logo h1{
+    color:#00BEA7;
+    margin-top:10px;
+}
+#signup_logo img{
+    width:120px;
+}
+#signup_logo h2{
+    color:#00BEA7;
+    margin-top:5px;
+}
+#login_form, #signup_form{
+    margin-left:10%;
+}
+#edit_form{
+    width: 60%;
+    margin:50px auto 100px auto;
+    float:left;
+    transform: translate(35%);
+}
+#login_form input{
+    box-sizing: border-box;
+    padding: 20px;
+    height:60px;
+    width:300px;
+    font-size: 15px;
+    margin: 5px auto;
+}
+#signup_form input, #edit_form input{
+    box-sizing: border-box;
+    padding: 20px;
+    height:25px;
+    width:300px;
+    font-size: 13px;
+    margin: 5px auto;
+}
+#signup_form button, #edit_form button{
+    box-sizing: border-box;
+    height:40px;
+    width:100px;
+    font-size: 15px;
+    margin: 5px auto;
+    vertical-align: center;
+    float:right;
+}
+#edit_form button{
+    margin-right:15px;
+}
+#clear{
+    clear:both;
+}
+#login_form button{
+    width:145px;
+    height:50px;
+    font-size:22px;
+    margin:6px 2px;
+}
+#signup_form span, #edit_form span{
+    display:inline-block;
+    font-weight: bold;
+    font-size:15px;
+    width:120px;
+    text-align: left;
+}
+#login_form a{
+    font-size:15px;
+    float:right;
+    color:#A99D9D;
+}
+.mypage_title{
+    margin-top:100px;
+    width:90%;
+    margin: 100px auto 0px auto;
+}
+.mypage_title_name{
+    float:left;
+    margin-bottom:10px;
+}
+.mypage_title_name img{
+    width:80px;
+    vertical-align:middle;
+    margin-right:10px;
+}
+.mypage_title_name span{
+    font-weight: 800;
+    font-size:30px;
+    vertical-align:bottom;
+}
+.mypage_title_name a{
+    font-size:15px;
+    margin-left:10px;
+    vertical-align:bottom;
+    color:#A99D9D;
+    font-weight:500;
+    line-height:25px;
+}
+.mypage_title_info{
+    float:right;
+    margin-bottom:10px;
+    height:80px;
+}
+.mypage_info_div{
+    float:left;
+    padding-top:20px;
+    margin:0px 15px;
+}
+.mypage_info_title{
+    font-size:15px;
+    color:#A99D9D;
+}
+.mypage_info_bold{
+    font-weight:bold;
+    font-size:25px;
+    vertical-align: bottom;
+}
+#mypage_reservation, #mypage_edit{
+    width:60%;
+    margin:0 auto;
+}
+.reservation_blank, .ask_blank {
+    text-align: center;
+    color: #00BEA7;
+}
+#mypage_reservation hr{
+    border : solid 1px #00BEA7;
+}
+.mypage_serve_title{
+    margin:100px auto;
+}
+.mypage_serve_title h3{
+    font-size:20px;
+    float:left;
+    line-height:50px;
+    margin:0;
+}
+.mypage_serve_title i{
+    color: #00BEA7;
+    margin-right:10px;
+}
+.mypage_serve_title a{
+    color: #00BEA7;
+    font-size:18px;
+    font-weight: bold;
+    float:right;
+    line-height:50px;
+    vertical-align: middle;
+}
+.about-section {
+    max-width: 800px;  /* Limits the width to make it easier to read */
+    margin: 0 auto;    /* Centers the section on the page */
+    padding: 20px;     /* Adds space inside the section */
+    line-height: 1.6;  /* Improves readability with line spacing */
+    color: #333;       /* Text color for better readability */
+    font-family: Arial, sans-serif;
+}
+
+.about-section h1 {
+    font-size: 2rem;     /* Large font for main title */
+    color: #444;         /* Slightly darker color for emphasis */
+    text-align: center;  /* Center align main title */
+    margin-bottom: 20px; /* Adds space below */
+}
+
+.about-section h2 {
+    font-size: 1.5rem;   /* Size for secondary headers */
+    color: #555;         /* Darker color for secondary headings */
+    margin-top: 30px;    /* Space above headings */
+    margin-bottom: 10px; /* Space below headings */
+    text-align: center;  /* Center align for headers */
+}
+
+.about-section p {
+    margin-bottom: 20px; /* Adds space below each paragraph */
+    text-align: justify; /* Justifies text for a cleaner look */
+}
+
+.about-section p:last-child {
+    margin-bottom: 0;    /* Removes margin from the last paragraph */
+}
+
+.about-section {
+    background: #f9f9f9;  /* Light background color */
+    border-radius: 8px;   /* Rounded corners for visual appeal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+}
